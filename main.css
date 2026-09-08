@@ -1,0 +1,98 @@
+ul {
+  background-color: aquamarine;
+}
+
+h1,
+h2,
+h3 {
+  color: green;
+}
+.external-css {
+  color: black; /* Teal text color */
+  background-color: gray;
+}
+/* Resetting some defaults styles using multiple selectors separated by commas */
+body {
+  background-color: #012626; /* Dark teal body background color */
+}
+p {
+  font-size: 16px; /* 16px is the default font size */
+  color: black; /* Grayish-blue */
+  margin-bottom: 12px; /* Adding some space below the paragragh */
+  background-color: gray;
+}
+p a {
+  color: red; /* Applies the red text color to the link within a paragragh block but bot to the entire paragragh */
+  text-decoration: none; /* Removing the underline */
+}
+/* Styling the unodered list */
+ul {
+  list-style-type: none; /* Removing the bullet paoints */
+  margin-left: 20px; /* Indentng the list */
+  margin-bottom: 12px; /* Adding some space below the list */
+}
+ul li {
+  margin-bottom: 5px; /* Adding some space below each list item */
+  color: blue; /* Grayish-blue text color */
+}
+/* Styling the unodered list within a div */
+div ul {
+  list-style-type: square; /* Adding the bullet points back */
+}
+/* General styling using a class */
+.feature-card {
+  border: 2px solid #7f8c8d; /* Grayish-blue */
+  padding: 20px; /* Adding some space inside the card */
+  margin: 20px; /* Adding some space outside the card */
+  background-color: blue; /* blue backgraound colorfor the class  */
+}
+/* Styling h3 within a class */
+.feature-card h2 {
+  font-size: 20px; /* 20px is the default font size */
+  margin-bottom: 10px; /* Adding some space below the heading */
+  color: #2c3e50; /* Deeo blue text color */
+}
+.feature-card p {
+  margin-bottom: 10px; /* Adding some space below the paragraph */
+  color: blue; /* Grayish-blue text color */
+}
+#special-feature {
+  background-color: #fde3a7; /* Light gold background color for the id speacial feature */
+  border-color: #f39c12; /* Gold border color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a shadow */
+}
+a {
+  display: inline-block; /* Making the link a block element */
+  color: blue; /* Bright blue text color */
+  text-decoration: none; /* Removing the underline */
+  padding: 5px 10px; /* Adding some space inside the link */
+  border: 1px solid #3498bd; /* Bright blue border color */
+  transition: all 0.3s ease; /* Adding a transition */
+}
+a:hover {
+  background-color: blue; /* bright blue background color */
+  color: white; /* WHite text color */
+}
+button {
+  padding: 5px 10px; /* Adding some space inside the butoon */
+  border: none; /* Removing the border */
+  background-color: #ecf0f1; /* Light gray background color */
+  cursor: pointer; /* Changing the cursor to a pointer */
+  transition: all 0.3s ease; /* Adding a transition */
+}
+/* Conditional styling for the hover state */
+button:hover {
+  background-color: red; /* Red backgorund color */
+}
+nav {
+  color: black; /* My nav is b=black in color */
+}
+section {
+  color: black; /* My section is black in color */
+}
+main {
+  color: black; /* My main is black in colro */
+}
+footer {
+  color: black; /* My footer is black in color */
+}
