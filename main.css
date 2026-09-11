@@ -7,13 +7,21 @@ h2,
 h3 {
   color: green;
 }
+img {
+  width: 380px;
+  padding-left: 550px;
+}
 .external-css {
   color: black; /* Teal text color */
   background-color: gray;
 }
 /* Resetting some defaults styles using multiple selectors separated by commas */
 body {
-  background-color: #012626; /* Dark teal body background color */
+  background-color: #013636; /* gray body background color */
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
 }
 p {
   font-size: 16px; /* 16px is the default font size */
@@ -63,7 +71,7 @@ div ul {
 }
 a {
   display: inline-block; /* Making the link a block element */
-  color: blue; /* Bright blue text color */
+  color: white; /* Bright blue text color */
   text-decoration: none; /* Removing the underline */
   padding: 5px 10px; /* Adding some space inside the link */
   border: 1px solid #3498bd; /* Bright blue border color */
