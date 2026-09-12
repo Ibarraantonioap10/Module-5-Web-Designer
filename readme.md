@@ -1,0 +1,2 @@
+Author: Antonio Ibarra
+Purpose: The purpose of this assignment is to use multipule html files and one CSS file and how to apply single selector, Multiple selectors, class selector, ID selectors, sub-element and pseudo-class making it work on the CSS file. The progect is about the Microsoft company in my index you'll see the a welcoming page followed by the projects, a contact information page, a blog showing audio and a video. The last about.html file conatins everything about the company, there mission and what the company services provide.
