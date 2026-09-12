@@ -1,24 +1,73 @@
-/* My h1, h2, h3 are green in color for visible eye sight. */
+html {
+  padding: 0; /* My html padding is 0. */
+}
+head {
+  color: black; /* My head color is black ic color. */
+}
+meta {
+  color: black; /* My meta color is black in color. */
+}
+title {
+  padding: 0; /* My tittle padding is 0. */
+}
+link {
+  padding: 0; /* My link padding is 0. */
+}
+body {
+  color: black; /* My body is black in color. */
+}
+header {
+  color: black; /* My header is black in color. */
+}
+/* My h1, h2, h3, h4, h5, are green in color for visible eye sight. */
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   color: green;
+  font-size: 30px;
+}
+video,
+audio {
+  padding-left: 575px; /* My video and audio will be in the center of the page. */
+}
+form {
+  padding: 0; /* My form my padding is 0. */
+}
+label {
+  padding: 0; /* My labels padding is 0. */
+}
+input {
+  padding: 0; /* My input padding is 0. */
 }
 img {
-  width: 380px;
-  padding-left: 550px;
+  width: 380px; /* My image will be 380px. */
+  padding-left: 550px; /* My image will be in the center page. */
+}
+br {
+  padding: 0; /* My br padding is 0. */
+}
+select {
+  padding: 0; /* my select padding is 0. */
+}
+option {
+  padding: 0; /* My option padding is 0. */
+}
+textarea {
+  padding: 0; /* My textarea padding is 0. */
 }
 .external-css {
   color: black; /* Teal text color */
-  background-color: gray;
+  background-color: gray; /* My background-color is gray. */
 }
 /* Resetting some defaults styles using multiple selectors separated by commas */
 body {
   background-color: aquamarine; /* white body background color */
 }
 .menu {
-  display: flex;
-  justify-content: space-around;
+  display: flex; /* My menu will have a display flex. */
+  justify-content: space-around; /* My justify-content will be space around. */
 }
 p {
   font-size: 16px; /* 16px is the default font size */
@@ -35,7 +84,7 @@ ul {
   list-style-type: none; /* Removing the bullet paoints */
   margin-left: 20px; /* Indentng the list */
   margin-bottom: 12px; /* Adding some space below the list */
-  background-color: black;
+  background-color: black; /* My background-color id black. */
 }
 ul li {
   margin-bottom: 5px; /* Adding some space below each list item */
@@ -101,4 +150,7 @@ main {
 }
 footer {
   color: black; /* My footer is black in color */
+}
+address {
+  padding: 0; /* My address padding is 0. */
 }
