@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Starbucks Gallery</title>
     <!-- I will use links so that you can see my css code and my index code when clicking on the link. -->
-    <link rel="stylesheet" href="gallery.css" />
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <header>
       <!-- In the header content I will show what codes go inside. -->
       <nav>
         <!-- I will show you the list of the names. -->
-        <ul>
+        <ul class="menu">
           <li><a href="index.html">Index</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="forms.html">Forms</a></li>
@@ -25,6 +25,19 @@
     </header>
     <main>
       <!-- main content typically goes here like a photo. -->
+      <!-- what goea inside the second div is h3 and a image followed by a paragragh. -->
+      <div>
+        <h3>Microsoft Headquarters</h3>
+        <img src="images/headqua.png" alt="headqua.png" />
+        <p class="feature-card">
+          <!-- This is where my p paragraghs begin. -->
+          The fist console ever made released on November 15, 2001 for only
+          $300. It had the best parts at the time with a 733 MHz pentium 3
+          processor and Nvidia Geforce 3 based-grafics chip making it the best
+          console of its time.
+        </p>
+      </div>
+      <!-- main content typically goes here like a photo. -->
       <section id="photos">
         <!-- example of a single div set and what goes insidel like a h2 and the image followed by a paragragh.-->
         <!-- Heading for the vidio section -->
@@ -34,7 +47,7 @@
           <video width="320" height="240" controls>
             <!-- Source for the vedio file -->
             <!-- The 'src' atrribute specifies the path to the video file -->
-            <source src="media/media.mp4" type="video/mp4" />
+            <source src="media/video.mp4" type="video/mp4" />
           </video>
           <audio id="audio-video" controls>
             <source src="media/audio.mp3" type="audio/mp3" />
@@ -42,69 +55,55 @@
           </audio>
           <!-- Fallback content in case the video isn't supported -->
           <p>
-            Here is a video of a starbucks community and how they work together
-            to help you with your needs.
+            Here is a video of a Microsoft community and how they work together
+            to help you with your needs have the best experience.
           </p>
         </div>
-        <!-- what goea inside the second div is h3 and a image followed by a paragragh. -->
-        <div>
-          <h3>Starbucks with Family and Friends</h3>
-          <img src="images/Starbucks1.png" alt="Starbucks1.png" />
-          <p>
-            Here at Starbucks we are a family and friends friendly place to be
-            with a warm and cozy environment to enjoy your favorite coffee or
-            tea with your loved ones. This is a place where anyone can come and
-            enjoy there time with a fast pace environment and a friendly staff
-            to help you with your needs.
-          </p>
-        </div>
-        <!-- what goes in the third div is h4 and a image followed by a paragragh. -->
-        <div>
-          <h4>Starbucks Store</h4>
-          <img src="images/Starbucks2.png" alt="Starbucks2.png" />
-          <p>
-            Here at Starbucks we are a fast moving environment with good
-            employees that are friendly and helpful to your needs. We provide
-            good customer service and a good environment to enjoy your favorite
-            coffee or tea with your loved ones. We are located in so many city's
-            ready to bring a smile to peoples faces and here we invite you to
-            come on by to check out our store and spend time with good people.
-            We have thousands of stores in the United States and around the
-            world.
-          </p>
-        </div>
-        <div>
-          <!-- what goes in the fifth div is h5 and a image followed by a paragragh. -->
-          <h5>Starbucks Drinks</h5>
-          <img src="images/Starbucks3.png" alt="Starbucks3.png" />
-          <p>
-            Her at Starbucks we provide so many drinks of your choosing you can
-            customize any tyoe of drink we have hot and cold coffee, espresso
-            and tea and add topping like wipped cream and cinnamon any type of
-            candy or of your choose I have made links to help you look at our
-            stores, menus and the history and if your wish to give feed back
-            click on the forms link and type in your feed back and we'll respond
-            in minutes.
-          </p>
-        </div>
-        <footer>
-          <address>
-            <p>2401 Utah Avenue South Seattle, Washington, 98134, USA</p>
-          </address>
-          <p>Starbucks Social Media Links At the bottom</p>
-          <p>
-            <a href="https://x.com/Starbucks">X</a>
-          </p>
-          <p>
-            <a href="www.//instagram.com/starbucks/">Instagram</a>
-          </p>
-          <p>
-            <a href="https://www.facebook.com/Starbucks/">Facebook</a>
-          </p>
-          <!--In the footer will belong a p and the copy rigth of jonathan cruz produtions -->
-          <p>&copy; Copyright 2026 Starbucks Company.</p>
-        </footer>
       </section>
+      <!-- what goes in the third div is h4 and a image followed by a paragragh. -->
+      <div>
+        <h4>Starbucks Store</h4>
+        <img src="images/community.png" alt="community.png" />
+        <p class="feature-card" id="special-feature">
+          <!-- This is where my p paragraghs begin. -->
+          The Xbox 360 is the best upgraded verson of the og xbox lanched on
+          november 22, 2005 at $300 with a detachable 20gb and 60gb hard drive
+          with a hdml or cables for the to plug into you tv and with a wireless
+          controller. The specs are 3.2 GHz tri-core Xenon CPU 512MB GDD‰3 RAM
+          and an ATI Xenos grafics processor making the 360 reliable and best
+          console of it time bring family and friends together.
+        </p>
+      </div>
+      <div>
+        <!-- what goes in the fifth div is h5 and a image followed by a paragragh. -->
+        <h5>Starbucks Drinks</h5>
+        <img src="images/group.png" alt="group.png" />
+        <p id="speacial-feature">
+          <!-- This is where my p paragraghs begin. -->
+          The Xbox series X is a 1TB Carbon Black home console released by
+          microsoft in November 2020 with 12 teraflops of power with an AMD Zen
+          2 CPU and RDNA 2 GPU also included 4k gaming with up to 120 frames per
+          second. The console also comes with a 1TB memory making the console
+          the best and fastest of this generation.
+        </p>
+      </div>
+      <footer>
+        <address>
+          <!-- The begginning of the address goes here. -->
+          <p>One Microsoft Way, Redmond, WA 98052, USA</p>
+        </address>
+        <p>Xbox Social Media Links At the bottom</p>
+        <p>
+          <a href="https://www.instagram.com/xbox/">Instagram</a>
+        </p>
+        <p>
+          <a href="https://www.facebook.com/xbox/">Facebook</a>
+        </p>
+        <p>
+          &copy; Copyright 2023 Microsoft Company Website:
+          <a href="https://www.microsoft.com/en-us" target="_self">linkin</a>
+        </p>
+      </footer>
     </main>
   </body>
 </html>

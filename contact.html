@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">My Projects</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Information Form</h1>
+    <main>
+      <!-- Beginning of the form element -->
+      <form action="/submit" method="post">
+        <!-- Label and text input field -->
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+        />
+
+        <br />
+        <!-- adds a line break -->
+
+        <!-- Label and password input field -->
+        <label for="password">Password: </label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+        />
+
+        <br />
+
+        <!-- Label and email input field -->
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@example"
+        />
+
+        <br />
+
+        <!-- Label and number input field -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="100" />
+
+        <br />
+
+        <!-- Radio buttons for gender selection -->
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" />
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" />
+
+        <br />
+
+        <!-- Checkbox for newsletter subscription -->
+        <label for="subscribe">Subscribe to newsletter</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+
+        <br />
+
+        <!-- Dropdown select for country selection -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+          <!-- ... other options ... -->
+        </select>
+
+        <br />
+
+        <!-- Textarea for additional comments -->
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+        <br />
+
+        <!-- File input for unloading files -->
+        <label for="file">Upload your photo:</label>
+        <input type="file" id="file" name="file" />
+
+        <br />
+
+        <!-- Hidden input field (not visible to users) -->
+        <input type="hidden" id="userId" name="userId" value="12345" />
+
+        <br />
+
+        <!--Range input for selecting a value within a range -->
+        <label for="volume">Volume:</label>
+        <input type="range" id="volume" name="volume" min="0" max="10" />
+
+        <br />
+
+        <!-- Data input for selecting a data -->
+        <label for="birthdate">Birth Date:</label>
+        <input type="date" id="birthdate" name="birthdate" />
+
+        <br />
+
+        <!-- Color input for selecting a color -->
+        <label for="favcolor">Favorite Color:</label>
+        <input type="color" id="favcolor" name="favcolor" />
+
+        <br />
+
+        <!-- Submit button to submit the form -->
+        <input type="submit" value="Submit" />
+
+        <!-- Reset button to reset the form fields -->
+        <input type="reset" value="Reset" />
+      </form>
+      <!-- End of the form element -->
+      <section>
+        <h2>Contact Us</h2>
+        <div class="feature-card" id="special-feature">
+          <p>Contact us for inquiries:</p>
+
+          <p>Cupertino, CA 95014, United States</p>
+          <p>
+            Phone:<a href="tel:1-800-936-3100" target="_self">1-800-936-3100</a>
+          </p>
+          <p>
+            Email:<a
+              href="mailto:https://www.microsoft.com/en-us"
+              target="_self"
+              >fake@email.com</a
+            >
+          </p>
+        </div>
+      </section>
+      <footer class="feature-card">
+        <address>
+          <p>Address: One Microsoft Way, Redmond, WA 98052, USA</p>
+        </address>
+      </footer>
+      <p>Xbox Social Media Links At the bottom</p>
+      <p>
+        <a href="https://www.instagram.com/xbox/">Instagram</a>
+      </p>
+      <p>
+        <a href="https://www.facebook.com/xbox/">Facebook</a>
+      </p>
+      <p>
+        &copy; Copyright 2023 Microsoft Company Website:
+        <a href="https://www.microsoft.com/en-us" target="_self">linkin</a>
+      </p>
+    </main>
+  </body>
+</html>

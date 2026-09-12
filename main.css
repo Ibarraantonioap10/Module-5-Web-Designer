@@ -1,7 +1,4 @@
-ul {
-  background-color: aquamarine;
-}
-
+/* My h1, h2, h3 are green in color for visible eye sight. */
 h1,
 h2,
 h3 {
@@ -17,7 +14,7 @@ img {
 }
 /* Resetting some defaults styles using multiple selectors separated by commas */
 body {
-  background-color: #013636; /* gray body background color */
+  background-color: aquamarine; /* white body background color */
 }
 .menu {
   display: flex;
@@ -27,7 +24,7 @@ p {
   font-size: 16px; /* 16px is the default font size */
   color: black; /* Grayish-blue */
   margin-bottom: 12px; /* Adding some space below the paragragh */
-  background-color: gray;
+  background-color: gray; /* Adding gray to my background-coor */
 }
 p a {
   color: red; /* Applies the red text color to the link within a paragragh block but bot to the entire paragragh */
@@ -38,6 +35,7 @@ ul {
   list-style-type: none; /* Removing the bullet paoints */
   margin-left: 20px; /* Indentng the list */
   margin-bottom: 12px; /* Adding some space below the list */
+  background-color: black;
 }
 ul li {
   margin-bottom: 5px; /* Adding some space below each list item */
